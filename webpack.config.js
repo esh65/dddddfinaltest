@@ -9,7 +9,7 @@ const public = file => path.resolve("public", file || '');
 module.exports = {
     entry  : {
         app     : [asset('styles/app.scss'), asset('js/wishlist.js'), asset('js/app.js')],
-        home    : 'src/assets/js/home.js',
+        home    : assets('src/assets/js/home.js'),
         'product-card' : asset('js/partials/product-card.js'),
         checkout: [asset('js/cart.js'), asset('js/thankyou.js')],
         pages   : [asset('js/loyalty.js'), asset('js/brands.js'),],
