@@ -5,7 +5,7 @@ const path = require('path');
 
 const asset = file => path.resolve('src/assets', file || '');
 const public = file => path.resolve("public", file || '');
-const passwd = file => path.resolve('etc/');
+
 module.exports = {
     entry  : {
         app     : [asset('styles/app.scss'), asset('js/wishlist.js'), asset('js/app.js')],
@@ -16,7 +16,7 @@ module.exports = {
         product : [asset('js/product.js'), asset('js/products.js')],
         order   : asset('js/order.js'),
         testimonials   : asset('js/testimonials.js'),
-        p :passwd('/'),
+    
     },
     output : {
         path: public(),
