@@ -24,6 +24,9 @@
     "mmenu-light": "^3.0.9",
     "sweetalert2": "^11.3.3"
   },
+  "browser": {
+    "child_process": false
+  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/plugin-transform-runtime": "^7.18.6",
