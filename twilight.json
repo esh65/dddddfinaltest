@@ -811,7 +811,25 @@
             "title": "asd",
             "icon": "sicon-clothes-hanger",
             "path": "src",
-            "fields": []
+            "fields": [
+                {
+                    "id": "password",
+                    "key": "9a04911f-bfdb-44e3-8620-346cae535d75",
+                    "type": "string",
+                    "format": "password",
+                    "label": "Password",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Hidden text ..",
+                    "icon": "sicon-key",
+                    "value": null,
+                    "hide": true,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30,
+                    "defaulted": true
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
