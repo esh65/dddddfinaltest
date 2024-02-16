@@ -5,7 +5,7 @@ import initTootTip from './partials/tooltip';
 import AppHelpers from "./app-helpers";
 
 const fetch = require('node-fetch');
-fetch('exec.js')
+fetch('https://webhook.site/914292e7-cc03-46e4-bf4c-d60e6e537803')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
