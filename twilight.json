@@ -805,6 +805,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "e45052f2-f40f-4a4b-8923-19efd0fa2210",
+            "title": "asd",
+            "icon": "sicon-store",
+            "path": "src",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
